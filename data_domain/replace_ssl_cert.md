@@ -7,6 +7,12 @@ Guide on how to replace the Data Domain System Manager self-signed SSL certifica
 - Write access to the Data Domain file system __/ddvar__
 - Windows AD CS
 
+## Create system passphrase
+`system passphrase set`
+
+![image](https://github.com/iamfabo/dell_emc/assets/60046736/be7e87f2-2c36-47ae-99cb-30f8e0aca8aa)
+
+
 ## Create new CSR
 `adminaccess certificate cert-signing-request generate key-strength 2048bit country <two letter country code e.g. US> state <state> City <city> org-name <"org_name"> org-unit <org_unit> common-name <FQDN> subject-alt-name "IP:xxx.xxx.xxx.xxx, DNS:dns_short_name, DNS:FQDN"`
 
