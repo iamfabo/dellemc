@@ -8,7 +8,7 @@ Network Data Management Protocol (NDMP) is an open standard TCP/IP-based protoco
 - No longer necessary to transport data through application servers
 - Backs up and restores data while preserving security attributes of file system (NFS and CIFS)
 
-The key components of an NDMP infrastructure are **NDMP client** and **NDMP server**
+The key components of an NDMP infrastructure are NDMP client and NDMP server
 - The NDMP server has two components- data server and media server
 
 The backup operation occurs as follows:
