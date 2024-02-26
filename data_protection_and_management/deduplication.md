@@ -15,7 +15,7 @@
 - Data is deduplicated at the target
 - Client is not affected since deduplication process takes place at target
 - Requires much more bandwidth to send data over the network during backup than source-based deduplication backup
-- Data is deduplicated at the backup device, either inline or post-process
+- Data is deduplicated at the backup device, either [inline](https://github.com/iamfabo/dellemc/blob/main/data_protection_and_management/deduplication.md#inline-deduplication) or [post-process](https://github.com/iamfabo/dellemc/blob/main/data_protection_and_management/deduplication.md#post-processing-deduplication)
   
 ### Inline deduplication
 ![review+MG+7+final-_1](https://github.com/iamfabo/dellemc/assets/60046736/326a038a-adaa-4872-b4ca-c2bea9738a31)
