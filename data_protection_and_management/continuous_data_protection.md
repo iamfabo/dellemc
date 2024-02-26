@@ -13,3 +13,10 @@ In this method, before the start of replication, the replica is synchronized wit
 - CDP appliance writes the data to the journal volume
 - Data from the journal volume is sent to the replica at predefined intervals
 - While recovering data to the source, the appliance restores data from the replica and applies journal entries up to the point-in-time chosen for recovery
+
+### Hypervisor-based CDP implementation- local replication
+![image](https://github.com/iamfabo/dellemc/assets/60046736/73189772-b867-4380-90a1-2a2e4f679306)
+- Protects a single or multiple VMs locally or remotely
+- Enables to restore VM to any PIT
+- Virtual appliance is running on a hypervisor
+- Write splitter is embedded in the hypervisor
