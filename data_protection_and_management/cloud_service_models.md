@@ -10,6 +10,6 @@
 - Consumer is billed for platform software components:
   - OS, Database, Middleware
 
-Software as a Service (SaaS)
+### Software as a Service (SaaS)
 ![image](https://github.com/iamfabo/dellemc/assets/60046736/6d5f83b9-d47c-41e6-a021-c95f6de559b9)
 - Capability provided to the consumer to use provider’s applications running in a cloud infrastructure
