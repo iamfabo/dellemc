@@ -5,5 +5,5 @@ Repository of summarized Dell EMC training materials, documentations and guides 
 
 ## Contens
 I. [Data Protection and Management](https://github.com/iamfabo/dellemc/tree/main/data_protection_and_management)\
-II. [DataDomain](https://github.com/iamfabo/dellemc/tree/main/data_domain)\
+II. [Data Domain](https://github.com/iamfabo/dellemc/tree/main/data_domain)\
 III. NetWorker
