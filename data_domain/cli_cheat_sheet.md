@@ -12,7 +12,7 @@
 
 ![image](https://github.com/iamfabo/dell_emc/assets/60046736/fa8d794b-7993-401f-9515-685c10f37457)
 
-`net ping <IP address / domain name>`
+`net ping <IP address / DNS name>`
 
 ![image](https://github.com/iamfabo/dellemc/assets/60046736/d2a87fae-b6fb-417b-adab-236d835b83ce)
 
