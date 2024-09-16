@@ -12,11 +12,11 @@ Supported by:
 - DDVE on-premises (vSphere)
 
 ## Data Domain Management Center (DDMC)
-Smart Scale is orchestrated by the Data Domain Management Center (DDMC), which is deployed as a virtual machine.\
+Smart Scale is orchestrated by the **Data Domain Management Center (DDMC)**, which is deployed as a virtual machine.\
 The DDMC configures and controls Smart Scale data movement in the following ways:
 
 - The systems can span across as many as **four pools** in a single data center
-- Smart Scale provides up to **48 PB of usable capacity** or **3 Exabytes (EB)** logical capacity with typical deduplication rates
+- Smart Scale provides up to **48 petabyte (PB)** of usable capacity or **3 exabytes (EB)** logical capacity with typical deduplication rates
 - Smart Scale provides an on-demand mobile storage unit (MSU) transfer, sparing the customer from manually rebalancing storage units
 - Mobile storage units (MSU) are transportable from one PowerProtect DD system to another within a system pool
 
@@ -33,7 +33,7 @@ The DDMC configures and controls Smart Scale data movement in the following ways
 > - A system pool manages available capacity as a group of systems instead of selecting individual PowerProtect DD appliances
 
 ## DD Namespace VM
-- DDMC deploys the DD Namespace VM (DDNVM)
+- DDMC deploys the **DD Namespace VM (DDNVM)**
 - The DDNVM is a virtual machine that runs the DD Namespace Redirection Service (DDNRS)
 - The DDNRS is used with Smart Scale to manage its credential and backup set databases
 - The DD Namespace VM is mostly stateless and is used in the data path for initial connection redirection
