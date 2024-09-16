@@ -2,7 +2,7 @@
 
 ![smart_scale](https://github.com/user-attachments/assets/2a1072eb-65c6-4d8e-8253-6b6f158fbfab)
 
-Smart Scale allows to manage up to **32** PowerProtect DD appliance in a single system pool under a unified namespace driving down management complexity while increasing storage efficiency.
+Smart Scale allows up to 32 PowerProtect DD appliances to be managed in a single system pool under a unified namespace, reducing management complexity and increasing storage efficiency.
 
 Supported by:
 - DD9900
