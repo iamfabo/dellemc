@@ -2,7 +2,7 @@
 
 ![smart_scale](https://github.com/user-attachments/assets/2a1072eb-65c6-4d8e-8253-6b6f158fbfab)
 
-Smart Scale allows up to 32 PowerProtect DD appliances to be managed in a single system pool under a unified namespace, reducing management complexity and increasing storage efficiency.
+Smart Scale allows up to **32 PowerProtect DD appliances** to be managed in a single system pool under a unified namespace, reducing management complexity and increasing storage efficiency.
 
 Supported by:
 - DD9900
@@ -16,7 +16,7 @@ Smart Scale is orchestrated by the Data Domain Management Center (DDMC), which i
 The DDMC configures and controls Smart Scale data movement in the following ways:
 
 - The systems can span across as many as **four pools** in a single data center
-- Smart Scale provides up to **48 PB of usable capacity** or over 3 EB logical capacity with typical deduplication rates
+- Smart Scale provides up to **48 PB of usable capacity** or **3 Exabytes (EB)** logical capacity with typical deduplication rates
 - Smart Scale provides an on-demand mobile storage unit (MSU) transfer, sparing the customer from manually rebalancing storage units
 - Mobile storage units (MSU) are transportable from one PowerProtect DD system to another within a system pool
 
