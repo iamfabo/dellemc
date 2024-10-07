@@ -76,9 +76,11 @@ The Microsoft application agent, Oracle RMAN agent, database application agent, 
 
 ![image](https://github.com/user-attachments/assets/660d77ec-ab98-4d55-bd2a-83a865e45f41)
 
-When you install PowerProtect Data Manager, it also comes with the PowerProtect Search Engine software by default and no additional software to be installed. The PowerProtect search engine indexes the virtual machine file metadata to enable searches based on configurable parameters. The Search Engine provides granular file-level searching capability in PowerProtect Data Manager.
+When you install PPDM, it also comes with the PowerProtect Search Engine software by default. The PowerProtect search engine indexes the virtual machine file metadata to enable searches based on configurable parameters. The Search Engine provides granular file-level searching capability in PowerProtect Data Manager.
 
 To use the search feature, add at least one search engine node to the search engine to make up a search cluster, and then enable the indexing feature.
-You can enable the indexing option when creating protection policies to index the assets when they are backed up. You can add up to a maximum of five search engine nodes.
-When you configure and install the PowerProtect Data Manager search engine, you can use the search engine to find protected folders and files in the environment using the file search criteria. The files matching your search criteria appear in the results window.
-After you find the backup copies, you can use the Search Engine to restore them to the original or alternate virtual machine at the same or a different location on the virtual machine.
+You can enable the indexing option when creating protection policies to index the assets when they are backed up.
+
+- You can add up to a maximum of five search engine nodes
+- When you configure and install the PPDM search engine, you can use the search engine to find protected folders and files in the environment using the file search criteria
+- After you find the backup copies, you can use the Search Engine to restore them to the original or alternate virtual machine at the same or a different location on the virtual machine
