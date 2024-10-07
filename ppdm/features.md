@@ -30,3 +30,33 @@ Copy Management feature supports the following use cases:
 - Delete one or more backup copies from the protection storage
 - Remove one or more backup copy records from the PowerProtect Data Manager database, but keep the backup copies in the protection storage
 - Locate specific backup copies through the advanced search and filters
+
+The Copy Management option allows PowerProtect Data Manager administrators to view and manage all backup copies at a single glance.
+
+Copy Management feature supports the following use cases:
+
+- View detailed information of backup copies on a single page
+- Edit backup retention periods for one or more backup copies
+- Delete one or more backup copies from the protection storage
+- Remove one or more backup copy records from the PowerProtect Data Manager database, but keep the backup copies in the protection storage
+- Locate specific backup copies through the advanced search and filters
+
+### Protection Engines
+![image](https://github.com/user-attachments/assets/6eb6c722-db56-422d-b83e-cad5e8781bd3)
+
+The VM Direct Protection Engine, formerly VM Proxy or vProxy, leverages the VMware vStorage API for Data Protection (VADP). It's deployment as a virtual appliance in the VMware vSphere environment is to perform the virtual machine snapshot backups and then move the backup data to a PowerProtect DD appliance.
+
+PowerProtect Data Manager supports the following types of protection engines:
+
+| **Protection Engine Types**     | Description                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Embedded VM Direct Engine       | - Embedded VM Direct Engine is an integrated vProxy in the PowerProtect Data Manager<br>- Can be used in small environments that do not utilize concurrent VM backups and Hot Add transport mode                                                                                                                                |
+| External VM Direct Engine       | - Designed for large environments that require concurrent VM backups and NAS protection<br>- External VM Direct Engine is configured on the ESXi hosts in the environment |
+| Transparent Snapshot Data Mover | - Uses the vSphere API for I/O (VAIO) Filtering framework<br>- TSDM's deployment in the VMware ESXi infrastructure through a vSphere Installation Bundle (VIB)<br>- Creates consistent VM backup copies and writes the copies to the protection storage like the PowerProtect DD series                                         |
+
+The PowerProtect VM Direct Engines support the following three transport modes:
+- Hot Add
+- NBD
+- Hot Add with fallback to NBD
+
+PPDM manages the TSDM component by using the VIB from Dell Technologies. You can install this component dynamically as part of the integration of PowerProtect Data Manager which requires the protection of VMs using transparent snapshots. The APIs being used are supported in VMware ESXi 7.0 U3 and later.
