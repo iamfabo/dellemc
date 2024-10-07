@@ -7,4 +7,4 @@ Repository of consolidated Dell EMC training materials, documentations, and guid
 I. [Data Protection and Management](https://github.com/iamfabo/dellemc/tree/main/data_protection_and_management)\
 II. [Data Domain](https://github.com/iamfabo/dellemc/tree/main/data_domain)\
 III. [NetWorker](https://github.com/iamfabo/dellemc/tree/networker)\
-IV. [PowerProtect Data Manager (PPDM)](https://github.com/iamfabo/dellemc/tree/ppdm)
+IV. [PowerProtect Data Manager (PPDM)](https://github.com/iamfabo/dellemc/main/tree/ppdm)
