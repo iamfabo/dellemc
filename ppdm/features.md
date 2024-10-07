@@ -13,3 +13,20 @@
 | VM direct workloads                                          | PowerProtect Data Manager integrates with the VM direct engine to improve the backup performance and reduce network bandwidth utilization during VMware virtual machine backups                                                                                                                                                |
 | SaaS-based and native reporting engine                       | Integrated with CloudIQ, PowerProtect Data Manager presents an aggregated view of data protection within the customers' environment across all sites and supported systems PowerProtect Data Manager comes with a native reporting engine and report browser                                                                  |
 | In-Cloud workloads protection                                | PowerProtect Data Manager can be deployed in Amazon AWS, Microsoft Azure, Google Cloud Platform (GCP), and Oracle Cloud VMware Solution (OCVS) to protect the in-cloud workloads                                                                                                                                               |
+
+#### Health
+
+- PowerProtect Data Manager automatically performs a health check every two minutes
+- Resolved issues are automatically removed during the next health check
+
+#### Copy Management
+![image](https://github.com/user-attachments/assets/c72b0465-b5c2-4de5-8615-4b017755e93d)
+The Copy Management option allows PowerProtect Data Manager administrators to view and manage all backup copies at a single glance.
+
+Copy Management feature supports the following use cases:
+
+- View detailed information of backup copies on a single page
+- Edit backup retention periods for one or more backup copies
+- Delete one or more backup copies from the protection storage
+- Remove one or more backup copy records from the PowerProtect Data Manager database, but keep the backup copies in the protection storage
+- Locate specific backup copies through the advanced search and filters
