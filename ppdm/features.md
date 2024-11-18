@@ -31,16 +31,6 @@ Copy Management feature supports the following use cases:
 - Remove one or more backup copy records from the PowerProtect Data Manager database, but keep the backup copies in the protection storage
 - Locate specific backup copies through the advanced search and filters
 
-The Copy Management option allows PowerProtect Data Manager administrators to view and manage all backup copies at a single glance.
-
-Copy Management feature supports the following use cases:
-
-- View detailed information of backup copies on a single page
-- Edit backup retention periods for one or more backup copies
-- Delete one or more backup copies from the protection storage
-- Remove one or more backup copy records from the PowerProtect Data Manager database, but keep the backup copies in the protection storage
-- Locate specific backup copies through the advanced search and filters
-
 ### Protection Engines
 ![image](https://github.com/user-attachments/assets/6eb6c722-db56-422d-b83e-cad5e8781bd3)
 
