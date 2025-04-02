@@ -1,6 +1,6 @@
 ## Delete DD Boost user
 
-To delete a DD Boost user, the user needs to be unassigned from DD Boost access to be deleted.
+To delete a DD Boost user, the user needs to be unassigned from DD Boost access to be deleted
 
 1. Show DDBoost user\
 `ddboost user show`\
