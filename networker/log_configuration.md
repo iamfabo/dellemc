@@ -19,7 +19,7 @@ When the defined threshold value is reached, NetWorker truncates the current log
 
 ## Log rotation by date
 
-Same process as in ## Log rotation by size simply replace **step 4** with one of the following values:
+Same process as in [Log rotation by size](https://github.com/iamfabo/dellemc/blob/main/networker/log_configuration.md#log-rotation-by-size) simply replace **step 4** with one of the following values:
 
 - Daily rotation by time: `update runtime rollover by time: "00:00"`
 - Weekly rotation by weekday: `update runtime rollover by time: "sunday"`
