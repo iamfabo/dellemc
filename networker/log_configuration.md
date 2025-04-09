@@ -1,7 +1,7 @@
 ## About
 Guide on how to:
 - Enable log rotation either by size or date
-- Enable runtime rendering, i.e. human readable date and time in logs instead of UNIX timestamp
+- Enable runtime rendering, i.e. human readable date and time in logs instead of UNIX timestamps
 
 ## Log rotation by size
 
