@@ -8,7 +8,7 @@ Guide on how to:
 ![image](https://github.com/user-attachments/assets/eb40d145-e9ca-4f1a-af28-172da813836c)
 
 1. `nsradmin -p nsrexec`
-2.	`. type: NSR log; name: <log.raw>` #Replace '<log.raw>' with the name of the log you want to enable rotation on
+2.	`. type: NSR log; name: <log.raw>` #Replace `<log.raw>` with the name of the log you want to enable rotation on
 3.	`print`
 4.	`update runtime rollover by size “Enabled”`
 5.	`y`
