@@ -1,12 +1,12 @@
-## Data Domain Virtual Edition
+## Data Domain virtual edition
 username: `sysadmin`\
 Password: `changeme`
 
-## PowerProtect DD appliance
+## Data Domain appliance
 username: `sysadmin`\
-password: `system serial number`
+password: `<system serial number>`
 
-## iDRAC
+## iDRAC / BMC
 Default IP: `192.168.0.120`\
 username: `root`\
-password: `system serial number`
+password: `<system serial number>`
