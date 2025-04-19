@@ -1,5 +1,5 @@
 ## About
-Guide for replacing the Data Domain System Manager self-signed SSL certificate for HTTPS access without security warnings. DDOS has a built-in tool to generate a CSR, a Windows AD CS is used to sign this CSR.
+Guide for replacing the Data Domain System Manager self-signed SSL certificate for HTTPS access without security warnings. DDOS has a built-in tool to generate a CSR, a Windows AD CS is used to sign this CSR
 
 ## Requirements
 - Data Domain appliance or Data Domain Virtual Edition
