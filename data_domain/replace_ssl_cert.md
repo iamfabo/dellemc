@@ -1,8 +1,7 @@
 ## About
-Guide for replacing the Data Domain System Manager self-signed SSL certificate for HTTPS access without security warnings. DDOS has a built-in tool to generate a CSR, a Windows AD CS is used to sign this CSR
+Guide for replacing the Data Domain System Manager self-signed SSL certificate for HTTPS access without security warnings. DDOS has a built-in tool to generate a CSR, a Windows AD CS can be used to sign this CSR
 
 ## Requirements
-- Data Domain appliance or Data Domain Virtual Edition
 - Admin access to the Data Domain CLI
 - Write access to the Data Domain file system __/ddvar__
 - Windows AD CS
@@ -23,11 +22,12 @@ Guide for replacing the Data Domain System Manager self-signed SSL certificate f
 ![image](https://github.com/iamfabo/dell/assets/60046736/6f9547f2-b2a8-4526-b9c4-df67880e9687)
 
 ## Access the CSR from the ddvar directory
-This can be achieved by creating a CIFS share of the ddvar directory
+This can be achieved by setting up a CIFS share of the ddvar directory
 
 DD System Manager -> Protocols -> CIFS
 
 ![image](https://github.com/user-attachments/assets/bf394035-2fee-47ff-8806-ea31230d6343)
+
 
 ## Import signed certificate
 Sign the CSR by your CA
@@ -49,19 +49,22 @@ Run the following command:\
 ![image](https://github.com/iamfabo/dell/assets/60046736/3bf06951-a8b1-41b5-8d4c-dd88daaccba0)
 
 ## Result
-FQDN\
+##### FQDN
 ![image](https://github.com/iamfabo/dell/assets/60046736/fc50cd3d-a826-46f6-99e7-3db6e96e10e2)
 
-DNS short name\
+##### DNS short name
 ![image](https://github.com/iamfabo/dell/assets/60046736/0741c08b-44b6-49b2-b2c0-199bcc0dd656)
 
-IPv4\
+##### IPv4
 ![image](https://github.com/iamfabo/dell/assets/60046736/ba3a6ab9-4da4-42f2-9406-281cd08fd646)
 
 ## Clean up
 
-##### Delete previous imported https certificate
+##### Delete current imported https certificate
 `adminaccess certificate delete imported-host application https`
+
+> ⚠️ **Warning:**\
+> Only run this command if you intend to replace the current CA-signed certificate; if this certificate gets deleted, DDOS will fall back to its self-signed certificate
 
 ##### Delete current CSR
 `adminaccess certificate cert-signing-request delete`
